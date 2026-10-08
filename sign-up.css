@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+  background-color:#a0acbe ;
+}
+
+.login_page{
+    width:420px;
+  background-color:#1f1c34 ;
+    color: #b511e2;
+    border-radius:20px;
+}
+.login_page h1 {
+    text-align: center;
+}
+
+.input_box{
+    width:100%;
+    height:50px;
+    margin:20px 0;
+}
+
+
+.input_box input{
+    width: 80%;
+    height:100%;
+    border-radius:20px;
+    border: none;
+    margin-left:45px;
+    color: #a612cf;
+    padding:  0 10px;
+
+}
+.input_box input:hover{
+    background-color: #160017;
+
+}
+.input_box input::placeholder{
+    text-align: center;
+}
+.btn{
+    background-color: #fff;
+    border-radius: 20px;
+    width:300px;
+    height:40px;
+    margin-left: 60px;
+    border: none;
+}
+
+.btn:hover{
+  animation: changeColor 2s forwards;
+}
+
+  @keyframes changeColor{
+    0%{ background-color: #75169b;}
+    20%{ background-color: #591766;}
+    100%{background-color: #f860ca; }
+  }
+.btn{
+    color: black;
+  background-color: #b511e2;
+    text-decoration: none;
+    font-size: medium;    
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    padding-left:60px;
+    padding-right:50px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.noAcc{
+    display: flex;
+    margin-left: 95px;
+    padding:10px;
+}
+.noAcc a{
+    color:#f3d9fb;
+    
+}
+.noAcc a:hover{
+    color: white;
+}
+.login_par{
+    color: #fbedff;
+    font-size:x-large;
+    margin-right: 200px;
+    margin-top:40px;
+}
+.login_par p{
+    font-size: larger;
+    
+}

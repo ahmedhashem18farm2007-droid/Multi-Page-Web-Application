@@ -1,0 +1,65 @@
+body{
+  background-color: #A9D6E8;
+
+}
+.total{
+    display: flex;
+    margin: 20px;
+}
+.total img{
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+}
+.h2_p h2{
+margin-left: 35px;
+font-size: 35px;
+font-style: italic;
+  
+color: #a80bc7;
+
+}
+.h2_p p{
+max-width: 700px;
+font-size: 15px;
+margin-left: 35px;
+margin-bottom: 30px;
+color: #fff;
+}
+
+
+
+.episodes,
+.seasons,
+.premiere,
+.Length,
+.Source{
+       background-color: #183451;
+
+    color: #ffff;
+    display: flex;
+    padding: 0 10px;
+    margin: 9px 15px 9px 15px ;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.episodes:hover,
+.seasons:hover,
+.premiere:hover,
+.Length:hover,
+.Source:hover{
+  background-color: #3DA4D1;
+
+}
+.detalies{
+    display: flex;
+    justify-content: space-between;
+
+}
+.total_detalies{
+    margin-left: 20px;
+    /* background-color: rgba(88, 249, 255, 0.635); */
+        border-radius: 10px;
+
+}

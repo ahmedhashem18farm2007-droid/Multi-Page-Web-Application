@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+<div class="register_page">
+    <h1>Create a new account</h1>
+
+    <form action="../sign-up/sign-up.html" method="get">
+        
+        <div class="name">
+            <div class="input_box">
+                <input type="text" placeholder="First name" id="first-name" required>
+            </div>
+            <div class="input_box">
+                <input type="text" placeholder="Last name" id="last-name" required>
+            </div>
+        </div>
+
+        <div class="input_box">
+            <input type="email" placeholder="Email" id="email" required>
+        </div>
+
+        <div class="input_box">
+            <input type="password" placeholder="Password" id="password" required>
+        </div>
+
+        <div class="input_box">
+            <input type="password" placeholder="Confirm Password" id="confPass" required>
+        </div>
+
+        <div class="date">
+            <label>Date of birth</label>
+            <input type="date" id="date" required>
+        </div>
+
+        <div class="gender">
+            <div class="male">
+                <label for="male" >Male</label>
+                <input type="radio" name="gender" id="male" value="male" required>
+            </div>
+            <div class="female">
+                <label>Female</label>
+                <input type="radio" name="gender" value="female" required>
+            </div>
+        </div>
+
+        <div>
+            <button type="submit" class="btn">Sign Up</button>
+        </div>
+
+        <div class="have_acc">
+            <a href="../sign-up/sign-up.html">Already have an account?</a>
+        </div>
+    
+    </form>
+</div>
+
+    
+</body>
+</html>
